@@ -21,7 +21,7 @@ class MessageFieldBox extends StatelessWidget {
         enabledBorder: outlineInputBorder,
         focusedBorder: outlineInputBorder,
         filled: true,
-        suffix: IconButton(
+        suffixIcon: IconButton(
           icon: const Icon(Icons.send_outlined),
           onPressed: () {
             final textValue = textController.value.text;

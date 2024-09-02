@@ -17,11 +17,11 @@ class ChatScreen extends StatelessWidget {
             padding: EdgeInsets.all(3.0),
             child: CircleAvatar(
               backgroundImage: NetworkImage(
-                  "https://media.licdn.com/dms/image/D4E03AQG71tMVZoFz7Q/profile-displayphoto-shrink_200_200/0/1703629446804?e=2147483647&v=beta&t=4yAgZViXDFGhprt0fn792_1wxJaZ7SFiMFECmhPUzSA"),
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmTg0McqdjewsAh3SGDaNE_S3e56OCjj6Qmw&s"),
             ),
           ),
           title: const Text(
-            "Miguel yes or no app 👨‍💻",
+            "Yes or no App",
             style: TextStyle(color: Colors.black),
           ),
           centerTitle: false,
